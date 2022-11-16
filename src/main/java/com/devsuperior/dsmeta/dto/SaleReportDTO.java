@@ -25,7 +25,7 @@ public class SaleReportDTO {
         this.id = projection.getId();
         this.date = projection.getDate();
         this.amount = projection.getAmount();
-        this.sellerName = projection.getSellerName();
+        this.sellerName = projection.getName();
     }
 
     public Long getId() {
